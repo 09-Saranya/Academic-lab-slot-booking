@@ -1,0 +1,41 @@
+.book-slot-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-slot-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.book-slot-container input[type="text"],
+.book-slot-container input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.book-slot-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-slot-container button:hover {
+    background-color: #0056b3;
+}
+
+.book-slot-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-slot-container li {
+    margin-bottom: 5px;
+}

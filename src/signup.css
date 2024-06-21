@@ -1,0 +1,89 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.signup-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.signup-page label {
+  margin-bottom: 10px;
+}
+
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.signup-page .password-input {
+  position: relative;
+  width: 100%;
+}
+
+.signup-page .password-input input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-right: 30px; /* Add space for the eye icon */
+}
+
+.signup-page .password-input .password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+}
+
+.signup-page button {
+  width: 100%;
+  padding: 10px;
+  background-color:#007bff;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.signup-page button:hover {
+  background-color: #007bff;
+}
+
+.signup-page p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.signup-page p a {
+  color:#007bff;
+  text-decoration: none;
+}
+
+.signup-page p a:hover {
+  text-decoration: underline;
+}
